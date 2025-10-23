@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "react-router-dom": "^7.9.4"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "vite"
+  }
+}
