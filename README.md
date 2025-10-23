@@ -1,16 +1,97 @@
-# React + Vite
+# E-commerce Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React-based e-commerce dashboard application with features like product browsing, shopping cart management, and user authentication.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🛍️ Product browsing and filtering
+- 🛒 Shopping cart functionality
+- 👤 User authentication system
+- 📱 Responsive design for all devices
+- 🎨 Modern and clean UI
+- 🔒 Protected routes for authenticated users
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+- **React** - Frontend library
+- **React Router** - Navigation and routing
+- **Context API** - State management
+- **CSS** - Styling
+- **Vite** - Build tool
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js (version 14 or higher)
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/Udiesh/E-Commerce_Cart.git
+```
+
+2. Navigate to the project directory
+```bash
+cd E-Commerce_Cart
+```
+
+3. Install dependencies
+```bash
+npm install
+# or
+yarn install
+```
+
+4. Start the development server
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+The application will be available at `http://localhost:5173`
+
+## Project Structure
+
+```
+shop-hub/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── Navbar/
+│   │   └── ProductCard/
+│   ├── context/
+│   │   ├── AuthContext.jsx
+│   │   └── CartContext.jsx
+│   ├── pages/
+│   │   ├── Home/
+│   │   ├── Cart/
+│   │   ├── Login/
+│   │   ├── Product/
+│   │   └── Profile/
+│   ├── App.jsx
+│   └── main.jsx
+└── package.json
+```
+
+## Available Scripts
+
+- `npm run dev` - Starts the development server
+- `npm run build` - Creates a production build
+- `npm run preview` - Previews the production build locally
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details
